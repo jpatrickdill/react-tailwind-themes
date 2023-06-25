@@ -1,6 +1,6 @@
-import {createContext, ReactNode, useContext, useEffect, useLayoutEffect} from "react";
+import {createContext, ReactNode, useContext, useLayoutEffect} from "react";
 import {ThemesConfig} from "./types";
-import {applyColors, flattenColors, mergeAndFlatten} from "./colors";
+import {applyColors, mergeAndFlatten} from "./colors";
 
 type LoadedConfig = ThemesConfig & {
     addAlphaColors: boolean

@@ -3,9 +3,9 @@ import {flattenColors} from "./colors";
 
 
 export function getTailwindColors(config?: ThemesConfig) {
-    if (!config) throw new Error("No config passed");
-    if (!config.themes) throw new Error("Malformed config: No themes present");
-    if (!config.default) throw new Error("Malformed config: Default theme is required");
+    if (!config) throw new Error("No themesConfig passed");
+    if (!config.themes) throw new Error("Malformed themesConfig: No themes present");
+    if (!config.default) throw new Error("Malformed themesConfig: Default theme is required");
 
     let addAlphaColors = config.addAlphaColors ?? true;
 

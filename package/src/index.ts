@@ -1,8 +1,6 @@
-import {ThemesProvider} from "./context";
+import {ThemesProvider, useThemesConfig} from "./context";
 import {getTailwindColors} from "./tailwind";
-import {useTheme} from "./hooks";
-import {useMergedThemes} from "./hooks";
-import {useThemesConfig} from "./context";
+import {useMergedThemes, useTheme} from "./hooks";
 
 export {
     getTailwindColors,

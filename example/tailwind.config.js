@@ -13,7 +13,7 @@ export default {
         extend: {
             colors: {
                 ...getTailwindColors(
-                    require(path.join(__dirname, "src/themeConfig")).default
+                    require(path.join(__dirname, "src/themes.config"))
                 )
             }
         },

@@ -5,7 +5,7 @@ import './index.css'
 
 import {ThemesProvider} from "../../package/dist";
 
-import themeConfig from "./themeConfig.js";
+import themeConfig from "./themes.config";
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>

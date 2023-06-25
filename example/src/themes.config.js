@@ -1,6 +1,6 @@
 /** @type {import('../../package/src/types').ThemesConfig} */
 
-const themeConfig = {
+const themesConfig = {
     // addAlphaColors: false,  // defaults to true
     default: "light",
     themes: {
@@ -42,4 +42,4 @@ const themeConfig = {
     }
 }
 
-export default themeConfig;
+export default themesConfig;

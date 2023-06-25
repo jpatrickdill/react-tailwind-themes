@@ -1,8 +1,7 @@
-import {Colors, Theme, ThemesConfig} from "./types";
-import {applyColors, flattenColors, mergeAndFlatten} from "./colors";
-import merge from "ts-deepmerge";
+import {Theme, ThemesConfig} from "./types";
+import {applyColors, mergeAndFlatten} from "./colors";
 import {useThemesConfig} from "./context";
-import {useEffect, useLayoutEffect} from "react";
+import {useLayoutEffect} from "react";
 
 type ThemeArg = string | Theme;
 
